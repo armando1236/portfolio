@@ -1,17 +1,18 @@
-*{
 
-}
 
 header {
-    background-color: rgb(108, 129, 142);
-    margin: auto;
+    background-color: rgb(38, 70, 83);
+    margin:  auto;
+    margin-top: -11px;
     line-height: 100px;
+    border: none;
 }
 
 h1{
     color: white;
     display: inline-block;
-    
+    font-size: 50px;
+    margin-left: 20px;
 }
 
 ul {
@@ -23,12 +24,35 @@ ul.nav {
     padding-left: 0px;
     text-align: right;
     margin-left: 900px;
-  }
-  ul.nav > li {
+}
+  ul.nav li {
     display: inline-block;
     padding: 10px 20px;
 }
 
 body { 
-    background-color: rgb(109, 156, 121);
+    background-color: white ;   
+    /* rgb(42, 157, 143); */
+}
+
+.weather {
+    display: inline-block;
+    
+}
+.weather p {
+    vertical-align: baseline;
+}
+   
+.weather-line {
+    display: inline-block;
+    text-align: left;
+   
+    height: 40px;
+    border-bottom: solid;
+    width: 900px;
+}
+.weather-line p {
+    padding-bottom: -15px;
+    vertical-align: bottom;
+    border-bottom-color: blue;
 }
