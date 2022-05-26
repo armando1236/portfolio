@@ -1,10 +1,11 @@
 
 
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(38, 70, 83);
-    margin:  auto;
     margin-top: -11px;
-    line-height: 100px;
+    line-height: 80px;
     border: none;
 }
 
@@ -13,17 +14,30 @@ h1{
     display: inline-block;
     font-size: 50px;
     margin-left: 20px;
+    
 }
 
+.about {
+    width: 700px;
+    margin-left: 700px;
+}
+
+h2 {
+    color: rgb(38, 70, 83);
+    justify-content: flex-end;
+    text-align: right;
+    m
+}
 ul {
     color: white;
     display: inline-block;
 }
 
 ul.nav {
+    display: flex;
+    justify-content: flex-end;
     padding-left: 0px;
     text-align: right;
-    margin-left: 900px;
 }
   ul.nav li {
     display: inline-block;
@@ -31,28 +45,46 @@ ul.nav {
 }
 
 body { 
-    background-color: white ;   
-    /* rgb(42, 157, 143); */
+    background-color: rgb(42, 157, 143);
 }
 
+.about {
+display: flex;
+}
 .weather {
     display: inline-block;
     
+    
 }
-.weather p {
-    vertical-align: baseline;
-}
-   
-.weather-line {
+.weather section {
     display: inline-block;
-    text-align: left;
-   
-    height: 40px;
-    border-bottom: solid;
-    width: 900px;
+    
 }
-.weather-line p {
-    padding-bottom: -15px;
-    vertical-align: bottom;
-    border-bottom-color: blue;
+
+.weather section p {
+    font-size: 40px;
+    color:rgb(38, 70, 83);
+}
+.cheat-underline {
+    margin: 0 ;
+    padding: 0 5000px 0 0;
+    border-bottom: 2px black solid;
+
+}
+
+.weather-image {
+    border: 5px solid black;
+    min-height: 250px;
+    max-height: 250px;
+    background-image: url("./images/weather.jpg");
+    background-size: cover;
+}
+
+.weather-image h2{
+    position: relative;
+    top: 200px;
+    color: white;
+    padding: 20px;
+    display: inline;
+    background-color: black;
 }
