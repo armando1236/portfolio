@@ -14,13 +14,19 @@ h1{
     display: inline-block;
     font-size: 50px;
     margin-left: 20px;
-    
 }
 
 .about {
     width: 700px;
     margin-left: 700px;
     display: flex;
+}
+
+.about div {
+    border-style: solid;
+    border-color: black;
+    height: 200px;
+    align-self: flex-end;
 }
 
 .about h2 {
@@ -72,7 +78,7 @@ display: flex;
 }
 
 .password {
-    
+   
     position: relative;
     text-align: left;
 }
@@ -85,7 +91,26 @@ display: flex;
 }
 .password img {
   width: 400px;  
+  
 }
+
+
+.quiz{
+    
+    position:relative
+    
+}
+.code-quiz {
+    position:;
+    bottom:280px;
+    left: 40px;
+    color: rgb(38, 70, 83);
+    font-size: 40px;
+}
+.quiz img {
+  width: 400px;  
+}
+
 
 /* .weather section {
     display: inline-block;
