@@ -20,13 +20,16 @@ h1{
 .about {
     width: 700px;
     margin-left: 700px;
+    display: flex;
 }
 
-h2 {
+.about h2 {
+    display: inline-block;
+    margin-right: 15px;
     color: rgb(38, 70, 83);
     justify-content: flex-end;
     text-align: right;
-    m
+    font-size: 40px;
 }
 ul {
     color: white;
@@ -53,26 +56,54 @@ display: flex;
 }
 .weather {
     display: inline-block;
-    
-    
+    position: relative;
+    text-align: right;
 }
-.weather section {
+.weather img {
+    width: 800px;
+
+}
+.weather-dashboard {
+ position: absolute;
+  bottom: 20px;
+  right: 16px;
+  color: rgb(38, 70, 83);
+  font-size: 40px;
+}
+
+.password {
+    
+    position: relative;
+    text-align: left;
+}
+.password-generator {
+    position: relative;
+    bottom:280px;
+    right: -40px;
+    color: rgb(38, 70, 83);
+    font-size: 40px;
+}
+.password img {
+  width: 400px;  
+}
+
+/* .weather section {
     display: inline-block;
     
 }
 
 .weather section p {
     font-size: 40px;
-    color:rgb(38, 70, 83);
+    color:rgb(38, 70, 83); */
 }
-.cheat-underline {
+/* .cheat-underline {
     margin: 0 ;
-    padding: 0 5000px 0 0;
-    border-bottom: 2px black solid;
+    padding: 0 50px 0 0;
+    border-bottom: 2px black solid; */
 
 }
 
-.weather-image {
+/* .weather-image {
     border: 5px solid black;
     min-height: 250px;
     max-height: 250px;
@@ -87,4 +118,4 @@ display: flex;
     padding: 20px;
     display: inline;
     background-color: black;
-}
+} */
