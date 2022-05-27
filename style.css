@@ -74,6 +74,7 @@ body {
     text-align: center;
     color:rgb(38, 70, 83);
     margin-bottom: 10px;
+    
 
 }
   
@@ -120,6 +121,9 @@ body {
 
 .schedule-text {
     position: absolute;
+    font-size: 35px;
+    margin-top: 200px;
+    
     
 }
 
