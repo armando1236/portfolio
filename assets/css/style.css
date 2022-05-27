@@ -54,7 +54,7 @@ body {
     width: 200px;
     margin: 20px;
     border-radius: 50%;
-    background-image: url("./images/self.jpeg");
+    background-image: url(/Users/armandomendezjr/Desktop/ucla-bootcamp/homework/portfolio/assets/images/avatar.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
