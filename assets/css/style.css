@@ -12,7 +12,7 @@ h1,
 ul,
 .nav li,
 .about p,
-.about h2{
+.about h2{ 
     display: inline-block;
 }
 
@@ -50,8 +50,8 @@ body {
 }
 
 .avatar-img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin: 20px;
     border-radius: 50%;
     background-image: url(/Users/armandomendezjr/Desktop/ucla-bootcamp/homework/portfolio/assets/images/avatar.png);
