@@ -84,7 +84,6 @@ body {
 
 .weather-text {
     position: absolute;
-    bottom: 50px;
     font-size: 45px;
     align-content: center;
     flex-shrink: 1px;
