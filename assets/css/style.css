@@ -47,6 +47,7 @@ body {
 .about p {
     width: 500px;
     margin-left: 20px;
+    font-size: x-large;
 }
 
 /* .avatar-img {
