@@ -49,16 +49,16 @@ body {
     margin-left: 20px;
 }
 
-.avatar-img {
+/* .avatar-img {
     height: 300px;
     width: 300px;
     margin: 20px;
     border-radius: 50%;
-    background-image: url(/Users/armandomendezjr/Desktop/ucla-bootcamp/homework/portfolio/assets/images/avatar.png);
+    background-image: url(images/avatar.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 .about h2 {
     color: rgb(38, 70, 83);
